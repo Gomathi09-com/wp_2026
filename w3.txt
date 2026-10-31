@@ -1,0 +1,609 @@
+week 3 
+john doe 
+html internal css 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe Profile</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .profile-card {
+            width: 420px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+
+        header {
+            background-color: rgb(76, 174, 79);
+            color: white;
+            padding: 30px;
+        }
+
+        header h2 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        .profile-content {
+            padding: 30px;
+        }
+
+        p {
+            font-size: 20px;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        button {
+            background-color: rgb(76, 174, 79);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        button:hover {
+            background-color: rgb(69, 170, 63);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="profile-card">
+
+        <header>
+            <h2>John Doe</h2>
+        </header>
+
+        <div class="profile-content">
+            <p>
+                Web Developer at XYZ Company.
+                Loves coding and coffee.
+            </p>
+
+            <button>Contact</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
+cod 2
+login form
+internal css 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        h1 {
+            color: rgb(255, 0, 0);
+            text-align: center;
+        }
+
+        .login-form {
+            width: 220px;
+            margin: auto;
+            padding: 15px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+
+        input {
+            width: 100%;
+            padding: 5px;
+            margin: 5px 0 15px;
+            box-sizing: border-box;
+        }
+
+        #submitButton {
+            background-color: rgb(0, 0, 255);
+            color: white;
+            font-size: 16px;
+            width: 100%;
+            padding: 8px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome to SkillUp - Learn, Grow, Succeed!</h1>
+
+    <h2>LOGIN FORM</h2>
+
+    <form class="login-form">
+
+        <label>Username:</label>
+        <input type="text" name="username">
+
+        <label>Password:</label>
+        <input type="password" name="password">
+
+        <button type="submit" id="submitButton">Login</button>
+
+    </form>
+
+</body>
+</html>
+
+pah 1 
+contact us web page blue colour
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: rgb(0, 115, 230);
+            color: white;
+            text-align: center;
+            padding: 16px;
+        }
+
+        nav {
+            background-color: #0056b3;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+            transition: 0.3s;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            background-color: white;
+            padding: 30px;
+            text-align: center;
+            min-height: 340px;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 40%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: rgb(0, 115, 230);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            background-color: rgb(0, 115, 230);
+            color: white;
+            text-align: center;
+            padding: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <h2>Get in Touch</h2>
+        <br>
+
+        <p>Feel free to reach out to us for any inquiries or feedback.</p>
+        <br>
+
+        <form class="contact-form">
+
+            <input type="text" placeholder="Your Name">
+
+            <input type="email" placeholder="Your Email">
+
+            <textarea rows="4" placeholder="Your Message"></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+    </div>
+
+    <footer>
+        <p>© 2024 Online Store. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+pah 2 
+red restaurant menu with grid box
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: darkred;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav {
+            background-color: brown;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 30px;
+            background-color: white;
+        }
+
+        .section-title {
+            color: rgb(200, 60, 60);
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .menu-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .item {
+            width: calc(50% - 10px);
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            background-color: #fafafa;
+        }
+
+        .price {
+            color: darkred;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        footer {
+            background-color: darkred;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Delicious Restaurant</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <h2 class="section-title">Starters</h2>
+
+        <div class="menu-section">
+            <div class="item">
+                <h3>Garlic Bread</h3>
+                <p>Crispy bread with garlic and herbs.</p>
+                <p class="price">$5.99</p>
+            </div>
+
+            <div class="item">
+                <h3>Tomato Soup</h3>
+                <p>Fresh tomato soup with basil.</p>
+                <p class="price">$4.99</p>
+            </div>
+        </div>
+
+        <h2 class="section-title">Main Course</h2>
+
+        <div class="menu-section">
+            <div class="item">
+                <h3>Grilled Chicken</h3>
+                <p>Served with vegetables and fries.</p>
+                <p class="price">$12.99</p>
+            </div>
+
+            <div class="item">
+                <h3>Veggie Pasta</h3>
+                <p>Pasta with fresh vegetables and herbs.</p>
+                <p class="price">$10.99</p>
+            </div>
+        </div>
+
+        <h2 class="section-title">Desserts</h2>
+
+        <div class="menu-section">
+            <div class="item">
+                <h3>Chocolate Cake</h3>
+                <p>Rich and moist chocolate cake.</p>
+                <p class="price">$6.99</p>
+            </div>
+
+            <div class="item">
+                <h3>Ice Cream</h3>
+                <p>Choice of vanilla, chocolate, or strawberry.</p>
+                <p class="price">$3.99</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2024 Delicious Restaurant. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+cy 
+css introduction proj
+html code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="#">Introduction</a>
+        <a href="#" class="active">CSS Syntax</a>
+        <a href="#">CSS Properties</a>
+    </nav>
+
+    <main>
+        <section class="card">
+
+            <h2 class="heading">Introduction to CSS</h2>
+
+            <p>
+                CSS stands for <b style="color: orange;">Cascading Style Sheets</b>.
+                It is used to style and layout web pages.
+                CSS allows you to apply styles to <b>web pages</b>.
+                More importantly, CSS enables you to do this independently
+                of the HTML that makes up each web page.
+            </p>
+
+            <h3 class="subheading">CSS Syntax</h3>
+
+            <p>
+                The syntax of CSS consists of a selector and a declaration block:
+            </p>
+
+            <div class="code-block">
+                <pre>selector {
+    property: value;
+}</pre>
+            </div>
+
+            <h3 class="subheading">CSS Properties</h3>
+
+            <p>
+                There are numerous CSS properties that can be used to style
+                elements. For example, the <b style="color:red;">color</b>
+                property defines the text color, and the
+                <b style="color:orangered;">font-size</b> property defines
+                the size of the text.
+            </p>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2024 CSS Introduction Project</p>
+    </footer>
+
+</body>
+</html>
+css style
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(52, 73, 94);
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: rgb(44, 62, 80);
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.navbar a:hover,
+.navbar .active {
+    background-color: limegreen;
+    color: black;
+    border-radius: 5px;
+}
+
+/* Main Content */
+main {
+    padding: 40px;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Heading */
+.heading {
+    color: rgb(192, 57, 43);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Subheadings */
+.subheading {
+    color: rgb(41, 128, 185);
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+/* Code Block */
+.code-block {
+    background-color: #f1f1f1;
+    border-left: 4px solid #ccc;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+/* Footer */
+.footer {
+    background-color: rgb(44, 62, 80);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 0;
+}
+end
