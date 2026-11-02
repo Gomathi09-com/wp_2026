@@ -1,0 +1,54 @@
+week 3-(internal)
+profile card(john doe,green)
+login form (red and form with class)
+contact us web page(blue color,getintouch)
+restaurant menu (red web)
+css introduction project(lines)
+week 5-(internal)
+product gallery(electronics grid)
+emily customer reviews(people)
+tech innovators summit(agenda)
+rachel designing footer(awesome icons)
+(ext)home rental platform(divakar)
+week 6-bootstrap
+ritika front-end highlight(button)
+ashok (user information form)
+sohail js dom manipulation z index,(img1,2,3)
+rekha ,live text editor (js,form mari)
+suresh kids sketch pad(js,color selection,eraser,clear canvas,bootstrap)
+week 7-(loop ,external,js,radiobutton)
+priya -edutrack solutions,(student attendance tracker)
+karthik,junior developer cinevote tech(movie genre poll)
+meera,fe dev learnspark tech(student quiz evaluation system)
+sneha ,fe dev quickmart retail solns vikram(shopping bill calc)
+arjun ,fe dev fitlife tech,(fitness activity planner)
+week 8 -mani csswith js
+employee direct react 
+building stopwatch application
+suresh kids sketch pad 
+ui dev,img display,dom manipulation
+rekha ,live text editor bootstrap
+week 9-react environ setup
+medical shop inventory management(add new med with init)
+food order mag sys(new food)
+music store inventory mng(add new )
+bookstore invent mng (new book )
+week 10 
+employee direct with react
+stopwatch
+crop maga sys with init
+employee directory (task manager)
+week 11
+library book card (the alchemist)
+product price tag(headphnes orange)
+student dashboard,eduspark tech(blue)
+verum employee directory (all dabbas)
+recipe book (flavournest tech)(dabba red)
+week 12
+transit connect-metro dept board
+weather pt-city temp
+notecraft-task board
+brewnova-coffee menu
+urban kitchen-recipe finder
+
+
